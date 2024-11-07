@@ -1,0 +1,144 @@
+/* Resetting styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar nav a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('nature-7736939.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #e5533d;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 15px;
+    text-align: left;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.destination-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.destination-card p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* CTA Section */
+.cta {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
